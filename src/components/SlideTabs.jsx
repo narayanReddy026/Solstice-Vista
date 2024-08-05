@@ -24,7 +24,7 @@ export default function SlideTabs() {
               opacity: 0,
             }));
           }}
-          className="relative md:flex md:justify-center mx-auto w-fit hidden  font-poppins font-semibold rounded-full border-2 border-black bg-white p-1"
+          className="relative  md:flex md:justify-center mx-auto w-fit hidden  font-poppins font-semibold rounded-full border-2 border-black bg-white p-1"
         >
           <Tab setPosition={setPosition}>Why Choose Us</Tab>
           <Tab setPosition={setPosition}>Our Services</Tab>
